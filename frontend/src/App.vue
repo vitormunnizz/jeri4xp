@@ -1,7 +1,9 @@
 <template>
-  <div class="p-10">
-    <h1 class="text-4xl font-bold text-blue-600">
-      Tailwind v4 funcionando
-    </h1>
+  <div>
+    <MenuSite />
   </div>
 </template>
+
+<script setup>
+  import MenuSite from './components/MenuSite.vue'
+</script>
