@@ -37,7 +37,7 @@ onUnmounted(() => clearInterval(timer))
               <a href="#experiencia" class="hover:text-orange-500 transition-colors">Experiência</a>
             </li>
             <li>
-              <a href="#" class="hover:text-orange-500 transition-colors">Depoimentos</a>
+              <a href="#depoimentos" class="hover:text-orange-500 transition-colors">Depoimentos</a>
             </li>
             <li>
               <a href="#" class="hover:text-orange-500 transition-colors">Contato</a>
