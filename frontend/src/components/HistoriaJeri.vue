@@ -1,13 +1,13 @@
 <template>
-  <section id="historia" class="bg-orange-600 min-h-screen flex items-center justify-center p-4 md:p-5">
-    <div class="max-w-4xl w-full text-white space-y-4 px-15 py-5">
+  <section id="historia" class="bg-orange-600 min-h-screen flex items-center justify-center">
+    <div class="max-w-4xl w-full text-white">
       <div class="border-b border-white pb-4">
-        <h1 class="text-4xl md:text-5xl font-bold tracking-tight">
+        <h1 class="text-3xl md:text-5xl font-bold text-center mt-5 md:mt-0">
           História de Jericoacoara
         </h1>
       </div>
 
-      <div class="text-lg md:text-xl indent-8 space-y-4 font-light">
+      <div class="text-lg md:text-xl space-y-4 p-4">
         <p>
           Jericoacoara, carinhosamente apelidada de Jeri, é um destino onde o tempo parece ditar o próprio ritmo através do movimento das marés e dos ventos. Localizada no Ceará, a cerca de 300 km de Fortaleza, a vila transformou-se de uma isolada aldeia de pescadores em um refúgio de fama internacional, sem abrir mão da sua essência rústica: as ruas permanecem cobertas de areia e a iluminação pública é inexistente para preservar o brilho do céu estrelado.
         </p>

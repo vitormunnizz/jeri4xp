@@ -21,12 +21,12 @@ onUnmounted(() => clearInterval(timer))
 </script>
 
 <template>
-  <div class="min-h-screen w-full font-sans bg-white">
+  <section class="min-h-screen w-full font-sans bg-white">
     
-    <section class="relative w-full h-140 overflow-hidden">
+    <div class="relative w-full h-140 overflow-hidden ">
       
       <header class="absolute w-full top-0 left-0 z-40 p-5 md:px-7 md:py-3 flex justify-between md:items-center items-start text-white">
-        <img :src="logo" alt="Logo" class="w-16 md:w-16" />
+        <img :src="logo" alt="Logo" class="w-14 md:w-16" />
         
         <nav class="hidden md:block">
           <ul class="flex gap-6 text-sm font-bold uppercase tracking-widest">
@@ -34,7 +34,7 @@ onUnmounted(() => clearInterval(timer))
               <a href="#historia" class="hover:text-orange-500 transition-colors">História</a>
             </li>
             <li>
-              <a href="#" class="hover:text-orange-500 transition-colors">Experiência</a>
+              <a href="#experiencia" class="hover:text-orange-500 transition-colors">Experiência</a>
             </li>
             <li>
               <a href="#" class="hover:text-orange-500 transition-colors">Depoimentos</a>
@@ -49,14 +49,14 @@ onUnmounted(() => clearInterval(timer))
       </header>
 
       <div class="flex h-full transition-transform duration-700 ease-in-out" :style="{ transform: `translateX(-${index * 100}%)` }">
-        <div v-for="(slide, i) in slides" :key="i" class="min-w-full h-full relative">
-          <img :src="slide.src" class="w-full h-full object-cover" alt="Imagem do Banner" />
+        <div v-for="(slide, i) in slides" :key="i" class="min-w-full h-full relative bg-black shadow-xl">
+          <img :src="slide.src" class="w-full h-full object-cover opacity-80" alt="Imagem do Banner" />
           
-          <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
-            <h1 class="text-2xl md:text-4xl font-black uppercase drop-shadow-2xl tracking-widest">
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+            <h1 class="text-2xl md:text-4xl font-black uppercase tracking-widest pb-6">
               Jeri4xp sua conexão com o paraíso.
             </h1>
-            <button class="mt-6 bg-orange-600 px-8 py-3 rounded font-bold uppercase hover:bg-orange-700 transition-all hover:cursor-pointer">
+            <button class="bg-orange-600 px-8 py-3 rounded-full font-bold uppercase hover:bg-orange-700 transition-all hover:cursor-pointer">
               Saiba Mais
             </button>
           </div>
@@ -73,7 +73,7 @@ onUnmounted(() => clearInterval(timer))
           :class="['h-2 rounded-full transition-all', index === i ? 'w-8 bg-orange-500' : 'w-2 bg-white/50']"
         ></button>
       </div>
-    </section>
+    </div>
 
     <div v-if="isMenuOpen" class="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center gap-8 text-white uppercase font-bold text-xl">
       <button @click="isMenuOpen = false" class="absolute top-6 right-8 text-4xl">&times;</button>
@@ -87,5 +87,5 @@ onUnmounted(() => clearInterval(timer))
       </p>
     </main>
 
-  </div>
+  </section>
 </template>
