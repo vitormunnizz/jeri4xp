@@ -16,7 +16,7 @@ const next = () => index.value = (index.value + 1) % slides.length
 const prev = () => index.value = (index.value - 1 + slides.length) % slides.length
 
 let timer
-onMounted(() => timer = setInterval(next, 8000))
+onMounted(() => timer = setInterval(next, 10000))
 onUnmounted(() => clearInterval(timer))
 </script>
 
