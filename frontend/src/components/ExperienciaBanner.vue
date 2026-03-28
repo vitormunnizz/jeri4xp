@@ -12,7 +12,7 @@
         
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Passeios</h2>
-          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-orange-700 hover:cursor-pointer transition-all duration-300">
+          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
             Saiba mais
           </button>
         </div>
@@ -23,7 +23,7 @@
         
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Hospedagem</h2>
-          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-orange-700 hover:cursor-pointer transition-all duration-300">
+          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
             Saiba mais
           </button>
         </div>
@@ -34,7 +34,7 @@
         
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Transfer</h2>
-          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-orange-700 hover:cursor-pointer transition-all duration-300">
+          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
             Saiba mais
           </button>
         </div>
@@ -45,7 +45,7 @@
         
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Aulas</h2>
-          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-orange-700 hover:cursor-pointer transition-all duration-300">
+          <button class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
             Saiba mais
           </button>
         </div>

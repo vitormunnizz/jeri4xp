@@ -31,16 +31,16 @@ onUnmounted(() => clearInterval(timer))
         <nav class="hidden md:block">
           <ul class="flex gap-6 text-sm font-bold uppercase tracking-widest">
             <li>
-              <a href="#historia" class="hover:text-orange-500 transition-colors">História</a>
+              <a href="#historia" class="hover:text-orange-600 transition-colors">História</a>
             </li>
             <li>
-              <a href="#experiencia" class="hover:text-orange-500 transition-colors">Experiência</a>
+              <a href="#experiencia" class="hover:text-orange-600 transition-colors">Experiência</a>
             </li>
             <li>
-              <a href="#depoimentos" class="hover:text-orange-500 transition-colors">Depoimentos</a>
+              <a href="#depoimentos" class="hover:text-orange-600 transition-colors">Depoimentos</a>
             </li>
             <li>
-              <a href="#" class="hover:text-orange-500 transition-colors">Contato</a>
+              <a href="#contato" class="hover:text-orange-600 transition-colors">Contato</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +56,7 @@ onUnmounted(() => clearInterval(timer))
             <h1 class="text-2xl md:text-4xl font-black uppercase tracking-widest pb-6">
               Jeri4xp sua conexão com o paraíso.
             </h1>
-            <button class="bg-orange-600 px-8 py-3 rounded-full font-bold uppercase hover:bg-orange-700 transition-all hover:cursor-pointer">
+            <button class="bg-orange-600 px-8 py-3 rounded-full font-bold uppercase hover:bg-white hover:text-orange-600 transition-all hover:cursor-pointer">
               Saiba Mais
             </button>
           </div>
