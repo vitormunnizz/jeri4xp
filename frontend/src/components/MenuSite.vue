@@ -16,7 +16,7 @@ const next = () => index.value = (index.value + 1) % slides.length
 const prev = () => index.value = (index.value - 1 + slides.length) % slides.length
 
 let timer
-onMounted(() => timer = setInterval(next, 10000))
+onMounted(() => timer = setInterval(next, 12000))
 onUnmounted(() => clearInterval(timer))
 </script>
 
@@ -57,7 +57,7 @@ onUnmounted(() => clearInterval(timer))
               Jeri4xp sua conexão com o paraíso.
             </h1>
             <button class="bg-orange-600 px-8 py-3 rounded-full font-bold uppercase hover:bg-white hover:text-orange-600 transition-all hover:cursor-pointer">
-              Saiba Mais
+              <a href="https://wa.me/5585999001339" target="_blank">Saiba Mais</a>
             </button>
           </div>
         </div>
