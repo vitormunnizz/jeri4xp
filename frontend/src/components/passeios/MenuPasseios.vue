@@ -1,40 +1,44 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue"
-import logo from "../assets/logo_jeri4xp.png"
+// Ajuste de caminho: subindo dois níveis para alcançar a pasta assets
+import logo from "../../assets/logo_jeri4xp.png"
 
 const index = ref(0)
 const isMenuOpen = ref(false)
 const navItems = [
-  { name: 'História', link: '#historia' },
-  { name: 'Experiência', link: '#experiencia' },
-  { name: 'Depoimentos', link: '#depoimentos' },
-  { name: 'Contato', link: '#contato' }
+  { name: 'Home', link: '/' },
+  { name: 'Lado Leste', link: '#leste' },
+  { name: 'Lado Oeste', link: '#oeste' },
+  { name: 'Extremo Leste', link: '#extremo' }
 ]
 
+// Imagens do Banner (Slider)
 const slides = [
-  { src: new URL("../assets/jeri1.webp", import.meta.url).href},
-  { src: new URL("../assets/jeri2.webp", import.meta.url).href},
-  { src: new URL("../assets/jeri3.webp", import.meta.url).href}
+  { src: new URL("../../assets/jeri1.webp", import.meta.url).href },
+  { src: new URL("../../assets/jeri2.webp", import.meta.url).href },
+  { src: new URL("../../assets/jeri3.webp", import.meta.url).href }
 ]
 
 const next = () => index.value = (index.value + 1) % slides.length
 const prev = () => index.value = (index.value - 1 + slides.length) % slides.length
 
 let timer
-onMounted(() => timer = setInterval(next, 12000))
+onMounted(() => timer = setInterval(next, 12000)) // Ajustado para 8s para não ser cansativo
 onUnmounted(() => clearInterval(timer))
+
 </script>
 
 <template>
   <section class="min-h-screen w-full font-sans bg-white">
-    
+
     <div class="relative w-full h-140 overflow-hidden">
-      
-      <header class="absolute w-full top-0 left-0 z-40 p-5 md:px-7 md:py-3 flex justify-between md:items-center items-start text-white">
-        <img :src="logo" alt="Logo" class="w-14 md:w-16" />
-        
+
+      <header
+        class="absolute w-full top-0 left-0 z-40 p-5 md:px-7 md:py-3 flex justify-between md:items-center items-start text-white">
+        <img :src="logo" alt="Logo Jeri4xp" class="w-14 md:w-16" />
+
         <nav class="hidden md:block">
-          <ul class="flex gap-6 text-sm font-bold uppercase tracking-widest">
+          <ul class="flex gap-8 text-xs font-black uppercase tracking-[0.2em]">
             <li v-for="item in navItems" :key="item.name">
               <a :href="item.link" class="hover:text-orange-600 transition-colors">{{ item.name }}</a>
             </li>
@@ -62,25 +66,17 @@ onUnmounted(() => clearInterval(timer))
           </div>
         </div>
       </div>
-      
-      <button @click="prev" class="absolute left-5 top-1/2 -translate-y-1/2 text-white text-5xl z-20 hover:cursor-pointer">‹</button>
-      <button @click="next" class="absolute right-5 top-1/2 -translate-y-1/2 text-white text-5xl z-20 hover:cursor-pointer">›</button>
+
+      <button @click="prev"
+        class="absolute left-5 top-1/2 -translate-y-1/2 text-white text-5xl z-20 hover:cursor-pointer">‹</button>
+      <button @click="next"
+        class="absolute right-5 top-1/2 -translate-y-1/2 text-white text-5xl z-20 hover:cursor-pointer">›</button>
 
       <div class="absolute bottom-6 w-full flex justify-center gap-2 z-20">
-        <button 
-          v-for="(_, i) in slides" :key="i"
-          @click="index = i"
-          :class="['h-2 rounded-full transition-all duration-500', index === i ? 'w-8 bg-orange-500' : 'w-2 bg-white/50']"
-        ></button>
+        <button v-for="(_, i) in slides" :key="i" @click="index = i"
+          :class="['h-2 rounded-full transition-all', index === i ? 'w-8 bg-orange-500' : 'w-2 bg-white/50']">
+        </button>
       </div>
-    </div>
-
-    <div v-if="isMenuOpen" class="fixed inset-0 bg-black/98 z-50 flex flex-col items-center justify-center gap-8 text-white uppercase font-bold text-xl">
-      <button @click="isMenuOpen = false" class="absolute top-8 right-8 text-5xl hover:cursor-pointer">&times;</button>
-      <a v-for="item in navItems" :key="item.name" :href="item.link" @click="isMenuOpen = false"
-         class="text-2xl font-black uppercase italic tracking-tighter hover:text-orange-600 transition-colors hover:cursor-pointer">
-        {{ item.name }}
-      </a>
     </div>
 
     <main class="p-10 text-center">
@@ -89,6 +85,16 @@ onUnmounted(() => clearInterval(timer))
         Turismo com qualidade, aventuras personalizadas e memórias inesquecíveis em Jericoacoara
       </p>
     </main>
+
+    <div v-if="isMenuOpen"
+      class="fixed inset-0 bg-black/98 z-50 flex flex-col items-center justify-center gap-8 text-white  uppercase font-bold text-xl">
+      <button @click="isMenuOpen = false" class="absolute top-8 right-8 text-5xl hover:cursor-pointer">&times;</button>
+      <a v-for="item in navItems" :key="item.name" :href="item.link" @click="isMenuOpen = false"
+        class="text-2xl font-black uppercase italic tracking-tighter hover:text-orange-600 transition-colors hover:cursor-pointer">
+        {{ item.name }}
+      </a>
+    </div>
+
 
   </section>
 </template>
