@@ -38,7 +38,7 @@ onUnmounted(() => clearInterval(timer))
         <img :src="logo" alt="Logo Jeri4xp" class="w-14 md:w-16" />
 
         <nav class="hidden md:block">
-          <ul class="flex gap-8 text-xs font-black uppercase tracking-[0.2em]">
+          <ul class="flex gap-6 text-sm font-bold uppercase tracking-widest">
             <li v-for="item in navItems" :key="item.name">
               <a :href="item.link" class="hover:text-orange-600 transition-colors">{{ item.name }}</a>
             </li>
