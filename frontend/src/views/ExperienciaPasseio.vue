@@ -3,6 +3,7 @@
     <ResumoPasseio/>
     <VeiculosCards/>
     <PasseioLeste/>
+    <PasseioOeste/>
     <DuvidaPagina/>
     <ContatoApp/>
     <WhatsAppButton/>
@@ -16,4 +17,5 @@
     import VeiculosCards from '@/components/passeios/VeiculosCards.vue';
     import DuvidaPagina from '@/components/passeios/DuvidaPagina.vue';
     import PasseioLeste from '@/components/passeios/PasseioLeste.vue';
+    import PasseioOeste from '@/components/passeios/PasseioOeste.vue';
 </script>

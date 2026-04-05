@@ -2,34 +2,36 @@
   <!-- Fundo laranja principal -->
   <section class="relative bg-orange-600 min-h-screen w-full p-4 font-sans flex flex-col items-center justify-center overflow-hidden mt-6 md:mt-0">
     
+    <!-- Cabeçalho Lado Oeste -->
     <div class="text-center mb-8 relative z-10 mt-6 md:mt-2">
       <span class="inline-block px-5 py-1.5 rounded-full bg-white text-orange-600 text-sm md:text-xs font-black uppercase tracking-widest m-2 shadow-lg">
-        Roteiro Lado Leste
+        Roteiro Lado Oeste
       </span>
       
       <h2 class="text-white text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2 drop-shadow-md">
-        Águas <span class="text-slate-800">Cristalinas</span> & Redes no <span class="text-slate-800">Paraíso</span>
+        Dunas <span class="text-slate-800">Gigantes</span> & Mangue <span class="text-slate-800">Selvagem</span>
       </h2>
       
       <p class="text-white text-base font-medium tracking-wide mx-auto leading-relaxed">
-        Das esculturas naturais da Árvore da Preguiça ao mergulho inesquecível no Buraco Azul.
+        Dos cavalos-marinhos no Rio Guriú ao relaxo total nas redes da Lagoa da Torta.
       </p>
     </div>
 
-    <!-- Card Compacto (Lado Leste: Imagem na Esquerda) -->
+    <!-- Card Lado Oeste (Imagem na Direita) -->
     <div class="max-w-5xl mx-auto relative z-10 w-full">
 
-      <div class="bg-white rounded-4xl shadow-2xl overflow-hidden flex flex-col md:flex-row border border-white/20">
+      <!-- flex-row-reverse coloca a imagem na direita no desktop -->
+      <div class="bg-white rounded-4xl shadow-2xl overflow-hidden flex flex-col md:flex-row-reverse border border-white/20">
         
-        <!-- Lado da Imagem (Esquerda) -->
+        <!-- Lado da Imagem (Direita) -->
         <div class="md:w-5/12 relative min-h-64 md:min-h-full">
           <img 
-            src="../../assets/jeri1.webp" 
-            alt="Passeio Lado Leste Jericoacoara"
+            src="../../assets/jeri1.webp"
+            alt="Passeio Lado Oeste Jericoacoara"
             class="absolute inset-0 w-full h-full object-cover" />
         </div>
 
-        <!-- Lado do Conteúdo (Direita) -->
+        <!-- Lado do Conteúdo (Esquerda) -->
         <div class="md:w-7/12 p-8 md:p-10 lg:p-12 flex flex-col justify-center">
           
           <div class="mb-5">
@@ -40,16 +42,16 @@
 
           <div class="text-slate-600 mb-6 text-sm md:text-base leading-relaxed space-y-4">
             <p>
-              Nosso roteiro começa com uma visita à famosa <strong class="text-slate-800 font-bold">Árvore da Preguiça</strong>, esculpida pelos ventos. Seguimos em direção à <strong class="text-slate-800 font-bold">Praia do Preá</strong>, portal de entrada para as belezas da região.
+              Explore o lado mais selvagem de Jeri! Iniciamos pelo <strong class="text-slate-800 font-bold">Rio Guriú</strong>, onde visitamos o berçário dos cavalos-marinhos e o cenário exótico do <strong class="text-slate-800 font-bold">Mangue Seco</strong>.
             </p>
             <p>
-              A aventura continua no <strong class="text-slate-800 font-bold">Buraco Azul</strong>, com suas águas turquesa, relaxando nas redes dentro d'água na <strong class="text-slate-800 font-bold">Lagoa do Paraíso</strong> e na charmosa <strong class="text-slate-800 font-bold">Lagoa Azul</strong>.
+              A jornada segue com aventura pelas dunas de <strong class="text-slate-800 font-bold">Tatajuba</strong>, finalizando com o relaxo total nas redes dentro d'água na famosa <strong class="text-slate-800 font-bold">Lagoa da Torta</strong>.
             </p>
           </div>
 
-          <!-- Grid de Pontos -->
+          <!-- Grid de Pontos Oeste -->
           <div class="grid grid-cols-2 gap-3 mb-8">
-            <div v-for="item in ['Árvore da Preguiça', 'Lagoa do Paraíso', 'Buraco Azul', 'Lagoa Azul']" 
+            <div v-for="item in ['Mangue Seco', 'Rio Guriú', 'Dunas de Tatajuba', 'Lagoa da Torta']" 
                  :key="item" 
                  class="flex items-center gap-2 group">
               <div class="p-1.5 rounded-lg transition-colors duration-300">
