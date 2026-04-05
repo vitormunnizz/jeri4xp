@@ -80,9 +80,9 @@ onUnmounted(() => clearInterval(timer))
     </div>
 
     <main class="p-10 text-center">
-      <h2 class="text-2xl font-bold text-gray-800">Sua aventura em Jericoacoara começa aqui</h2>
+      <h2 class="text-2xl font-bold text-gray-800">Descubra os Melhores Passeios em Jericoacoara</h2>
       <p class="mt-4 text-gray-500 max-w-2xl mx-auto italic">
-        Turismo com qualidade, aventuras personalizadas e memórias inesquecíveis em Jericoacoara
+        Explore lagoas cristalinas, dunas impressionantes e paisagens únicas com total conforto e segurança.
       </p>
     </main>
 

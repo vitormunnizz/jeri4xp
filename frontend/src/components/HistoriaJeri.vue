@@ -1,6 +1,5 @@
 <template>
-  <section id="historia"
-    class="bg-orange-600 min-h-screen flex items-center justify-center py-20 px-6 relative font-sans">
+  <section id="historia" class="bg-orange-600 min-h-screen flex items-center justify-center py-20 px-6 relative font-sans">
 
     <div class="max-w-5xl w-full text-white">
 
@@ -32,18 +31,18 @@
           </p>
         </div>
         
-        <div class="space-y-6">
-          <p class="text-lg">
+        <div class="space-y-6 text-lg">
+          <p>
             A história mudou drasticamente em 1984, quando o The Washington Post a elegeu como uma das dez praias mais
             bonitas do mundo.
           </p>
 
-          <p class="text-lg">
+          <p>
             Hoje, protegida como Parque Nacional, a jornada de contrastes começa pela icônica Pedra Furada e passa pela
             Duna do Pôr do Sol.
           </p>
 
-          <p class="text-lg">
+          <p>
             Para quem busca relaxamento, as famosas redes nas lagoas do Paraíso e Azul são paradas obrigatórias. Já o
             lado oeste revela a beleza crua do Mangue Seco e a travessia do Rio Guriú, onde a natureza se manifesta em
             raízes expostas e águas calmas.

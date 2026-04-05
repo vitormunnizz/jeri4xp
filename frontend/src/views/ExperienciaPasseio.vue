@@ -1,14 +1,19 @@
 <template>
     <MenuPasseios />
-    <WhatsAppButton/>
+    <ResumoPasseio/>
+    <VeiculosCards/>
+    <PasseioLeste/>
+    <DuvidaPagina/>
     <ContatoApp/>
-    <PasseioHero/>
+    <WhatsAppButton/>
 </template>
 
 <script setup>
     import WhatsAppButton from '@/components/WhatsAppButton.vue';
     import MenuPasseios from '@/components/passeios/MenuPasseios.vue';
     import ContatoApp from '@/components/ContatoApp.vue';
-    import PasseioHero from '@/components/passeios/PasseioHero.vue';
-    
+    import ResumoPasseio from '@/components/passeios/ResumoPasseio.vue';
+    import VeiculosCards from '@/components/passeios/VeiculosCards.vue';
+    import DuvidaPagina from '@/components/passeios/DuvidaPagina.vue';
+    import PasseioLeste from '@/components/passeios/PasseioLeste.vue';
 </script>
