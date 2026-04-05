@@ -2,9 +2,7 @@
     <MenuPasseios />
     <ResumoPasseio/>
     <VeiculosCards/>
-    <PasseioLeste/>
-    <PasseioOeste/>
-    <PasseioExtremo/>
+    <CarrosselPasseio/>
     <DuvidaPagina/>
     <ContatoApp/>
     <WhatsAppButton/>
@@ -17,7 +15,5 @@
     import ResumoPasseio from '@/components/passeios/ResumoPasseio.vue';
     import VeiculosCards from '@/components/passeios/VeiculosCards.vue';
     import DuvidaPagina from '@/components/passeios/DuvidaPagina.vue';
-    import PasseioLeste from '@/components/passeios/PasseioLeste.vue';
-    import PasseioOeste from '@/components/passeios/PasseioOeste.vue';
-    import PasseioExtremo from '@/components/passeios/PasseioExtremo.vue';
+    import CarrosselPasseio from '@/components/passeios/CarrosselPasseio.vue';
 </script>
