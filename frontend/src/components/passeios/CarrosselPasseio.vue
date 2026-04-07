@@ -1,11 +1,11 @@
 <template>
-  <section class="w-full py-10 bg-white">
+  <section>
 
     <swiper
       :modules="modules"
       :slides-per-view="1"
       :loop="true"
-      :autoplay="{ delay: 8000 }"
+      :autoplay="{ delay: 8000, disableOnInteraction: false }"
       class="meu-swiper"
     >
       <swiper-slide>
@@ -26,14 +26,13 @@
 
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Navigation, Autoplay } from 'swiper/modules'
+import { Autoplay } from 'swiper/modules'
 
 import 'swiper/css'
-import 'swiper/css/navigation'
 
 import PasseioLeste from '@/components/passeios/PasseioLeste.vue'
 import PasseioOeste from '@/components/passeios/PasseioOeste.vue'
 import PasseioExtremo from '@/components/passeios/PasseioExtremo.vue'
 
-const modules = [Navigation, Autoplay]
+const modules = [Autoplay]
 </script>
