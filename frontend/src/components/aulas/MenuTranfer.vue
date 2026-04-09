@@ -1,9 +1,13 @@
 <script setup>
+import logo from "../../assets/logo_jeri4xp.png"
+
 
 const navItems = [
   { name: 'Home', link: '/' },
-  { name: 'Trajetos', link: '#trajetos' },
-  { name: 'Dúvidas', link: '#duvidaTranfer' },
+  { name: 'Roteiro', link: '#roteiros' },
+  { name: 'Veículos', link: '#veiculos' },
+  { name: 'Passeios', link: '#passeios' },
+  { name: 'Dúvidas', link: '#duvida' },
   { name: 'Contato', link: '#contato' },
 ]
 </script>
@@ -15,7 +19,7 @@ const navItems = [
 
       <header
         class="absolute w-full top-0 left-0 z-40 p-5 md:px-7 md:py-3 flex justify-between md:items-center items-start text-white">
-        <img src="../../assets/logo_jeri4xp.png" alt="Logo Jeri4xp" class="w-14 md:w-16" />
+        <img :src="logo" alt="Logo Jeri4xp" class="w-14 md:w-16" />
 
         <nav class="hidden md:block">
           <ul class="flex gap-6 text-sm font-bold uppercase tracking-widest">
