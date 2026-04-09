@@ -57,24 +57,24 @@ const expandedFaq = ref(null)
 
 const faqs = [
   { 
-    question: 'Como funciona o transfer até Jericoacoara?', 
-    answer: 'O transfer é feito em duas etapas: primeiro por estrada asfaltada até Jijoca, e depois em veículos 4x4 pelas dunas até a vila de Jericoacoara.' 
+    question: 'Preciso ter experiência para fazer aulas de esportes na praia?', 
+    answer: 'Não. As aulas são indicadas tanto para iniciantes quanto para quem já pratica e quer evoluir. Os instrutores adaptam o ritmo conforme seu nível.' 
   },
   { 
-    question: 'Quanto tempo dura o transfer até Jericoacoara?', 
-    answer: 'O trajeto dura em média de 5 a 6 horas saindo de Fortaleza e cerca de 1 hora saindo do Aeroporto de Cruz.' 
+    question: 'Quais esportes posso aprender em Jericoacoara?', 
+    answer: 'As modalidades mais procuradas são kitesurf, windsurf, surf e stand up paddle. Jericoacoara tem condições ideais de vento e mar para aprender com segurança. :contentReference[oaicite:0]{index=0}' 
   },
   { 
-    question: 'O transfer busca no hotel ou aeroporto?', 
-    answer: 'Sim, o serviço geralmente inclui busca no hotel em Fortaleza ou diretamente no aeroporto, oferecendo mais comodidade para o viajante.' 
+    question: 'Quanto tempo dura uma aula?', 
+    answer: 'A duração varia conforme a modalidade. Aulas avulsas costumam durar de 1 a 3 horas, enquanto cursos completos de kitesurf geralmente acontecem em 3 dias, com cerca de 3 horas por dia. :contentReference[oaicite:1]{index=1}' 
   },
   { 
-    question: 'O transfer é compartilhado ou privativo?', 
-    answer: 'Existem as duas opções. O compartilhado é mais econômico, enquanto o privativo oferece mais conforto, flexibilidade de horários e exclusividade.' 
+    question: 'Os equipamentos estão inclusos na aula?', 
+    answer: 'Na maioria das escolas, sim. Os equipamentos de segurança e prática costumam estar inclusos, garantindo mais conforto para quem está começando. :contentReference[oaicite:2]{index=2}' 
   },
   { 
-    question: 'O transfer funciona todos os dias?', 
-    answer: 'Sim, os transfers operam diariamente, com horários programados. É importante reservar com antecedência para garantir disponibilidade.' 
+    question: 'As aulas são seguras?', 
+    answer: 'Sim. As aulas são acompanhadas por instrutores experientes, com foco em segurança, teoria básica, uso correto dos equipamentos e adaptação às condições do mar e do vento. :contentReference[oaicite:3]{index=3}' 
   }
 ]
 </script>

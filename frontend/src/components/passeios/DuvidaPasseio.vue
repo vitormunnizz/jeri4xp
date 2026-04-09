@@ -57,24 +57,24 @@ const expandedFaq = ref(null)
 
 const faqs = [
   { 
+    question: 'Qual o passeio mais procurado em Jericoacoara?', 
+    answer: 'Os passeios mais procurados são o Lado Leste, com paradas na Lagoa do Paraíso e Árvore da Preguiça, e o Lado Oeste, com Tatajuba e travessia de balsa. Ambos oferecem paisagens incríveis e experiências únicas.' 
+  },
+  { 
     question: 'Quanto tempo dura o passeio?', 
-    answer: 'Os passeios têm duração média de 6 a 7 horas, incluindo paradas nas principais atrações para descanso, fotos e aproveitamento das lagoas.' 
+    answer: 'A maioria dos passeios dura entre 6 e 8 horas, dependendo do roteiro escolhido, do tempo de parada em cada atração e das condições do trajeto.' 
   },
   { 
-    question: 'Qual o melhor tipo de veículo?', 
-    answer: 'Depende da experiência que você busca. O buggy é o mais tradicional e confortável, enquanto o quadriciclo é ideal para quem quer mais autonomia e aventura. UTV e 4x4 oferecem mais espaço e uma experiência diferenciada.' 
+    question: 'Preciso reservar o passeio com antecedência?', 
+    answer: 'Sim, especialmente em finais de semana, feriados e alta temporada. Reservar antes garante sua vaga, melhores horários e mais opções de veículo.' 
   },
   { 
-    question: 'Precisa reservar com antecedência?', 
-    answer: 'Sim, recomendamos reservar com pelo menos 24 horas de antecedência, especialmente em alta temporada, para garantir disponibilidade e melhores horários.' 
+    question: 'Quais passeios são indicados para crianças e famílias?', 
+    answer: 'Passeios de buggy ou 4x4 privativo são os mais indicados para famílias, pois oferecem mais conforto, segurança e flexibilidade nas paradas.' 
   },
   { 
-    question: 'Os passeios são seguros?', 
-    answer: 'Sim, todos os passeios são realizados com guias experientes e veículos preparados para o terreno, garantindo segurança durante toda a experiência.' 
-  },
-  { 
-    question: 'O que está incluso no passeio?', 
-    answer: 'Normalmente o passeio inclui transporte e acompanhamento do guia. Paradas em restaurantes, taxas locais e consumos extras podem ser cobrados à parte.' 
+    question: 'O que levar para o passeio em Jericoacoara?', 
+    answer: 'Leve protetor solar, roupa leve, óculos escuros, chapéu, água, celular carregado para fotos e dinheiro ou cartão para consumos extras durante as paradas.' 
   }
 ]
 </script>

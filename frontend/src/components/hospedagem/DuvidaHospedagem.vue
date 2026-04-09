@@ -57,24 +57,24 @@ const expandedFaq = ref(null)
 
 const faqs = [
   { 
-    question: 'Como funciona o transfer até Jericoacoara?', 
-    answer: 'O transfer é feito em duas etapas: primeiro por estrada asfaltada até Jijoca, e depois em veículos 4x4 pelas dunas até a vila de Jericoacoara.' 
+    question: 'Qual a melhor região para se hospedar em Jericoacoara?', 
+    answer: 'O ideal é ficar próximo ao centrinho da vila para ter fácil acesso a restaurantes, lojas, praia e vida noturna, sem precisar de grandes deslocamentos.' 
   },
   { 
-    question: 'Quanto tempo dura o transfer até Jericoacoara?', 
-    answer: 'O trajeto dura em média de 5 a 6 horas saindo de Fortaleza e cerca de 1 hora saindo do Aeroporto de Cruz.' 
+    question: 'É melhor ficar em pousada ou hotel em Jericoacoara?', 
+    answer: 'Depende do seu perfil. As pousadas costumam oferecer uma experiência mais aconchegante e charmosa, enquanto hotéis podem ter mais estrutura e serviços.' 
   },
   { 
-    question: 'O transfer busca no hotel ou aeroporto?', 
-    answer: 'Sim, o serviço geralmente inclui busca no hotel em Fortaleza ou diretamente no aeroporto, oferecendo mais comodidade para o viajante.' 
+    question: 'Preciso reservar hospedagem com antecedência?', 
+    answer: 'Sim, principalmente em alta temporada, feriados e férias. Reservar antes garante melhores preços, localização e disponibilidade.' 
   },
   { 
-    question: 'O transfer é compartilhado ou privativo?', 
-    answer: 'Existem as duas opções. O compartilhado é mais econômico, enquanto o privativo oferece mais conforto, flexibilidade de horários e exclusividade.' 
+    question: 'Jericoacoara tem opções de hospedagem para famílias?', 
+    answer: 'Sim, há pousadas, hotéis e casas completas ideais para famílias, com quartos amplos, áreas de lazer e mais conforto para crianças.' 
   },
   { 
-    question: 'O transfer funciona todos os dias?', 
-    answer: 'Sim, os transfers operam diariamente, com horários programados. É importante reservar com antecedência para garantir disponibilidade.' 
+    question: 'A hospedagem fica perto dos passeios?', 
+    answer: 'Sim, a maioria das hospedagens na vila tem fácil acesso aos pontos de saída dos passeios e transfers, facilitando bastante sua experiência.' 
   }
 ]
 </script>
