@@ -2,10 +2,8 @@
 
 const navItems = [
   { name: 'Home', link: '/' },
-  { name: 'Roteiro', link: '#roteiros' },
-  { name: 'Veículos', link: '#veiculos' },
-  { name: 'Passeios', link: '#passeios' },
-  { name: 'Dúvidas', link: '#duvida' },
+  { name: 'Trajetos', link: '#trajetos' },
+  { name: 'Dúvidas', link: '#duvidaTranfer' },
   { name: 'Contato', link: '#contato' },
 ]
 </script>
