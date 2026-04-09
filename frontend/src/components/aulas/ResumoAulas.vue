@@ -1,42 +1,62 @@
 <template>
-  <section id="aulas" class="bg-orange-600 min-h-screen p-7 md:p-4 flex items-center justify-center font-sans">
-    
-    <div class="w-full max-w-5xl py-16 md:py-12 bg-white rounded-3xl shadow-xl px-8 md:px-16 mx-auto">
-
+  <section
+    id="aulas"
+    class="bg-orange-600 min-h-screen py-16 px-4 md:px-6 flex items-center justify-center font-sans"
+  >
+    <div
+      class="w-full max-w-5xl bg-white rounded-3xl shadow-xl px-6 md:px-16 py-12 md:py-16"
+    >
       <div class="max-w-4xl mx-auto">
 
-        <h1 class="text-3xl md:text-4xl font-extrabold text-center mb-6 text-orange-600 leading-tight">
+        <h1
+          class="text-3xl md:text-5xl font-extrabold text-center mb-6 text-orange-600 leading-tight"
+        >
           Viva a Experiência dos Esportes em Jericoacoara
         </h1>
 
-        <div class="space-y-4 text-md leading-relaxed text-gray-800">
+        <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12 text-lg leading-relaxed">
+          Jericoacoara é um dos melhores destinos do Brasil para quem deseja aprender,
+          evoluir e viver novas experiências nos esportes de praia.
+        </p>
+
+        <div class="space-y-6 text-gray-700 text-base md:text-lg leading-relaxed">
 
           <p>
-            Jericoacoara é um dos destinos mais procurados do Brasil para quem deseja aprender ou evoluir
-            nos esportes de praia. Com ventos constantes, mar ideal e paisagens incríveis, a região oferece
-            o cenário perfeito para viver experiências únicas com segurança e diversão.
+            Jericoacoara reúne condições ideais para a prática de esportes como kitesurf,
+            windsurf, surf e stand up paddle. A região conta com ventos constantes,
+            mar favorável e clima perfeito durante grande parte do ano, criando um ambiente
+            seguro e confortável tanto para iniciantes quanto para quem já tem experiência.
           </p>
 
           <p>
-            Seja para dar os primeiros passos no kitesurf, aprimorar técnicas no windsurf, aproveitar aulas
-            de surf ou explorar as águas com stand up paddle, há opções para todos os níveis. As aulas são
-            acompanhadas por instrutores experientes, que adaptam o ritmo de acordo com seu perfil.
+            Além das condições naturais privilegiadas, as aulas são acompanhadas por
+            instrutores experientes, que orientam cada etapa do aprendizado de acordo
+            com o seu nível. Isso permite que você evolua no seu ritmo, com mais confiança
+            e tranquilidade durante toda a experiência.
           </p>
 
           <p>
-            Além da prática esportiva, cada aula se transforma em uma oportunidade de se conectar com a
-            natureza, superar desafios e aproveitar Jericoacoara de uma forma muito mais intensa e especial.
-            Tudo isso com estrutura adequada e equipamentos preparados para sua segurança.
+            Outro grande diferencial é a estrutura oferecida: equipamentos de qualidade,
+            materiais de segurança e suporte completo para que você aproveite cada momento
+            sem preocupação. Tudo é pensado para proporcionar conforto e tornar sua experiência
+            mais leve e prazerosa.
           </p>
 
           <p>
-            A seguir, você vai conhecer as principais modalidades disponíveis e encontrar a opção ideal
-            para transformar sua viagem em uma experiência ainda mais inesquecível.
+            Mais do que aprender um novo esporte, viver essa experiência em Jericoacoara
+            significa se conectar com a natureza, superar desafios e criar memórias únicas
+            em um dos cenários mais bonitos do litoral brasileiro.
+          </p>
+
+          <p>
+            Seja para sua primeira aula ou para aperfeiçoar sua técnica, Jericoacoara oferece
+            o cenário ideal para transformar sua viagem em uma experiência ainda mais intensa,
+            divertida e inesquecível.
           </p>
 
         </div>
+
       </div>
     </div>
-
   </section>
 </template>

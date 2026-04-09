@@ -1,62 +1,101 @@
 <template>
-  <section class="bg-orange-600 py-16 px-4 font-sans">
-    <div class="max-w-6xl mx-auto">
+  <section
+    id="como-funciona"
+    class="bg-white py-16 px-4 md:px-6 font-sans"
+  >
+    <div class="max-w-5xl mx-auto">
 
-      <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-4 text-white">
-        Por que aprender esportes em Jericoacoara?
-      </h2>
+      <!-- Título -->
+      <div class="text-center mb-14">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-orange-600 mb-4">
+          Como Funcionam as Aulas
+        </h2>
 
-      <p class="text-center text-orange-100 max-w-2xl mx-auto mb-12 text-lg">
-        Um dos melhores destinos do Brasil para viver novas experiências com segurança, estrutura e paisagens incríveis.
-      </p>
+        <p class="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
+          Um processo simples, seguro e pensado para você aproveitar ao máximo sua experiência em Jericoacoara.
+        </p>
+      </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Etapas -->
+      <div class="space-y-8">
 
-        <!-- Ventos -->
-        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300">
-          <div class="text-4xl mb-4">🌬️</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">
-            Condições Ideais
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            Ventos constantes, mar favorável e clima perfeito para aprender com mais segurança.
-          </p>
+        <!-- Etapa 1 -->
+        <div class="flex flex-col md:flex-row gap-6 items-start bg-orange-50 rounded-2xl p-6 shadow-sm">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-orange-600 text-white text-2xl font-bold shrink-0">
+            1
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">
+              Escolha da Modalidade
+            </h3>
+            <p class="text-gray-600 leading-relaxed">
+              Escolha entre kitesurf, windsurf, surf ou stand up paddle. Nossa equipe pode ajudar você a definir a melhor opção de acordo com seu perfil e objetivo.
+            </p>
+          </div>
         </div>
 
-        <!-- Instrutores -->
-        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300">
-          <div class="text-4xl mb-4">🧑‍🏫</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">
-            Instrutores Experientes
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            Acompanhamento profissional para garantir evolução no seu ritmo e total tranquilidade.
-          </p>
+        <!-- Etapa 2 -->
+        <div class="flex flex-col md:flex-row gap-6 items-start bg-orange-50 rounded-2xl p-6 shadow-sm">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-orange-600 text-white text-2xl font-bold shrink-0">
+            2
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">
+              Agendamento da Aula
+            </h3>
+            <p class="text-gray-600 leading-relaxed">
+              Após escolher sua modalidade, definimos o melhor horário para sua aula considerando as condições do vento, maré e clima para garantir a melhor experiência.
+            </p>
+          </div>
         </div>
 
-        <!-- Equipamentos -->
-        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300">
-          <div class="text-4xl mb-4">🦺</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">
-            Equipamentos Inclusos
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            Estrutura completa com materiais de qualidade para você aproveitar sem preocupação.
-          </p>
+        <!-- Etapa 3 -->
+        <div class="flex flex-col md:flex-row gap-6 items-start bg-orange-50 rounded-2xl p-6 shadow-sm">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-orange-600 text-white text-2xl font-bold shrink-0">
+            3
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">
+              Avaliação e Planejamento da Aula
+            </h3>
+            <p class="text-gray-600 leading-relaxed">
+              Antes de começar, o instrutor avalia seu nível e explica o passo a passo da aula, adaptando o ritmo para que você aprenda com segurança e tranquilidade.
+            </p>
+          </div>
         </div>
 
-        <!-- Experiência -->
-        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300">
-          <div class="text-4xl mb-4">✨</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">
-            Experiência Inesquecível
-          </h3>
-          <p class="text-gray-600 leading-relaxed">
-            Aprenda se divertindo em um dos cenários mais bonitos e famosos do litoral brasileiro.
-          </p>
+        <!-- Etapa 4 -->
+        <div class="flex flex-col md:flex-row gap-6 items-start bg-orange-50 rounded-2xl p-6 shadow-sm">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-orange-600 text-white text-2xl font-bold shrink-0">
+            4
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">
+              Estrutura para sua Aula
+            </h3>
+            <p class="text-gray-600 leading-relaxed">
+              Todos os equipamentos necessários são fornecidos e revisados. Você também recebe orientações completas para aproveitar a experiência com total segurança.
+            </p>
+          </div>
+        </div>
+
+        <!-- Etapa 5 -->
+        <div class="flex flex-col md:flex-row gap-6 items-start bg-orange-50 rounded-2xl p-6 shadow-sm">
+          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-orange-600 text-white text-2xl font-bold shrink-0">
+            5
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">
+              Prática e Evolução
+            </h3>
+            <p class="text-gray-600 leading-relaxed">
+              Durante a aula, você pratica com acompanhamento próximo do instrutor, corrige movimentos, ganha confiança e evolui no seu tempo, aproveitando cada momento.
+            </p>
+          </div>
         </div>
 
       </div>
+
     </div>
   </section>
 </template>
