@@ -32,10 +32,12 @@
 
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Hospedagem</h2>
-          <button
-            class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
-            Saiba mais
-          </button>
+          <router-link to="/hospedagem">
+            <button
+              class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
+              Saiba mais
+            </button>
+          </router-link>
         </div>
       </div>
 
@@ -47,10 +49,13 @@
 
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Transfer</h2>
-          <button
-            class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
-            Saiba mais
-          </button>
+
+          <router-link to="/transfer">
+            <button
+              class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
+              Saiba mais
+            </button>
+          </router-link>
         </div>
       </div>
 
@@ -62,10 +67,12 @@
 
         <div class="relative z-10">
           <h2 class="text-white text-4xl font-black mb-4 uppercase italic tracking-tighter">Aulas</h2>
-          <button
-            class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
-            <a href="#passeio">Saiba mais</a>
-          </button>
+          <router-link to="/aulas">
+            <button
+              class="bg-orange-600 text-white py-3 px-8 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-orange-600 hover:cursor-pointer transition-all duration-300">
+              Saiba mais
+            </button>
+          </router-link>
         </div>
       </div>
 

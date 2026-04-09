@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white min-h-screen p-4 flex items-center justify-center font-sans">
+  <section id="duvida" class="bg-white min-h-screen p-4 flex items-center justify-center font-sans">
     
     <div class="max-w-4xl mx-auto w-full">
 

@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ExperienciaPasseio from '@/views/ExperienciaPasseio.vue'
+import ExperienciaPasseios from '@/views/ExperienciaPasseios.vue'
+import ExperienciaTransfer from '@/views/ExperienciaTransfer.vue'
+import ExperienciaAulas from '@/views/ExperienciaAulas.vue'
+import ExperienciaHospedagem from '@/views/ExperienciaHospedagem.vue'
 
 const routes = [
   {
@@ -10,8 +13,23 @@ const routes = [
   },
   {
     path: '/passeios',
-    name: 'ExperienciaPasseio',
-    component: ExperienciaPasseio
+    name: 'ExperienciaPasseios',
+    component: ExperienciaPasseios
+  },
+  {
+    path: '/transfer',
+    name: 'ExperienciaTransfer',
+    component: ExperienciaTransfer
+  },
+  {
+    path: '/aulas',
+    name: 'ExperienciaAulas',
+    component: ExperienciaAulas
+  },
+  {
+    path: '/hospedagem',
+    name: 'ExperienciaHospedagem',
+    component: ExperienciaHospedagem
   }
 ]
 

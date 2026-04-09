@@ -1,5 +1,5 @@
 <template>
-    <section class="relative bg-orange-600 min-h-screen w-full p-4 font-sans flex flex-col items-center justify-center overflow-hidden mt-6 md:mt-0">
+    <section id="passeios" class="relative bg-orange-600 min-h-screen w-full p-4 font-sans flex flex-col items-center justify-center overflow-hidden mt-6 md:mt-0">
 
         <div class="text-center mb-8 relative z-10 mt-6 md:mt-2">
             <span class="inline-block px-5 py-1.5 rounded-full bg-white text-orange-600 text-sm md:text-xs font-black uppercase tracking-widest m-2 shadow-lg">

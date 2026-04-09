@@ -3,7 +3,7 @@
     <ResumoPasseio/>
     <VeiculosCards/>
     <CarrosselPasseio/>
-    <DuvidaPagina/>
+    <DuvidaPasseio/>
     <ContatoApp/>
     <WhatsAppButton/>
 </template>
@@ -14,6 +14,6 @@
     import ContatoApp from '@/components/ContatoApp.vue';
     import ResumoPasseio from '@/components/passeios/ResumoPasseio.vue';
     import VeiculosCards from '@/components/passeios/VeiculosCards.vue';
-    import DuvidaPagina from '@/components/passeios/DuvidaPagina.vue';
+    import DuvidaPasseio from '@/components/passeios/DuvidaPasseio.vue';
     import CarrosselPasseio from '@/components/passeios/CarrosselPasseio.vue';
 </script>
