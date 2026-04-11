@@ -1,5 +1,5 @@
 <template>
-  <section id="roteiros" class="bg-orange-600 min-h-screen p-7 md:p-4 flex items-center justify-center font-sans">
+  <section id="geralPasseios" class="bg-orange-600 min-h-screen p-7 md:p-4 flex items-center justify-center font-sans">
     
     <div class="w-full max-w-5xl py-16 md:py-12 bg-white rounded-3xl shadow-xl px-8 md:px-16 mx-auto">
 

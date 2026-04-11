@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="aulas"
-    class="bg-orange-600 min-h-screen py-16 px-4 md:px-6 flex items-center justify-center font-sans"
-  >
+  <section id="geralAulas" class="bg-orange-600 min-h-screen py-16 px-4 md:px-6 flex items-center justify-center font-sans">
     <div
       class="w-full max-w-5xl bg-white rounded-3xl shadow-xl px-6 md:px-16 py-12 md:py-16"
     >

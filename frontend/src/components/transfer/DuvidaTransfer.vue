@@ -1,13 +1,13 @@
 <template>
   <section id="duvidaTranfer" class="bg-white min-h-screen p-4 flex items-center justify-center font-sans">
     
-    <div class="max-w-4xl mx-auto w-full">
+    <div class="max-w-4xl mx-auto w-full text-gray-800">
 
       <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-4 text-orange-600">
         Dúvidas Frequentes
       </h2>
 
-      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12 text-lg">
+      <p class="text-center max-w-2xl mx-auto mb-12 text-lg">
         Tire suas principais dúvidas antes de reservar e aproveite sua experiência em Jericoacoara com total tranquilidade.
       </p>
 
