@@ -6,9 +6,9 @@ const isMenuOpen = ref(false)
 const navItems = [
   { name: 'Home', link: '/' },
   { name: 'Visão Geral', link: '#geralHospedagem' },
-  { name: 'Veículos', link: '#veiculos' },
-  { name: 'Passeios', link: '#passeios' },
-  { name: 'Dúvidas', link: '#duvida' },
+  { name: 'Onde se Hospedar', link: '#localizacoes' },
+  { name: 'Tipos de Hospedagem', link: '#tipos' },
+  { name: 'Dúvidas', link: '#duvidaHospedagem' },
   { name: 'Contato', link: '#contato' },
 ]
 

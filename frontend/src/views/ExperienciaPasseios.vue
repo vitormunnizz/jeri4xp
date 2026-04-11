@@ -1,19 +1,19 @@
 <template>
     <MenuPasseios />
-    <ResumoPasseio/>
-    <VeiculosCards/>
-    <CarrosselPasseio/>
-    <DuvidaPasseio/>
-    <ContatoApp/>
-    <WhatsAppButton/>
+    <ResumoPasseios />
+    <VeiculosPasseios />
+    <CarrosselPasseios />
+    <DuvidasPasseios />
+    <ContatoApp />
+    <WhatsAppButton />
 </template>
 
 <script setup>
-    import WhatsAppButton from '@/components/WhatsAppButton.vue';
-    import MenuPasseios from '@/components/passeios/MenuPasseios.vue';
-    import ContatoApp from '@/components/ContatoApp.vue';
-    import ResumoPasseio from '@/components/passeios/ResumoPasseio.vue';
-    import VeiculosCards from '@/components/passeios/VeiculosCards.vue';
-    import DuvidaPasseio from '@/components/passeios/DuvidaPasseio.vue';
-    import CarrosselPasseio from '@/components/passeios/CarrosselPasseio.vue';
+import WhatsAppButton from '@/components/WhatsAppButton.vue';
+import MenuPasseios from '@/components/passeios/MenuPasseios.vue';
+import ContatoApp from '@/components/ContatoApp.vue';
+import VeiculosPasseios from '@/components/passeios/VeiculosPasseios.vue';
+import ResumoPasseios from '@/components/passeios/ResumoPasseios.vue';
+import CarrosselPasseios from '@/components/passeios/CarrosselPasseios.vue';
+import DuvidasPasseios from '@/components/passeios/DuvidasPasseios.vue';
 </script>

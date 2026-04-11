@@ -5,7 +5,7 @@ const isMenuOpen = ref(false)
 
 const navItems = [
   { name: 'História', link: '#historia' },
-  { name: 'Experiência', link: '#experiencia' },
+  { name: 'Experiências', link: '#experiencias' },
   { name: 'Depoimentos', link: '#depoimentos' },
   { name: 'Contato', link: '#contato' }
 ]

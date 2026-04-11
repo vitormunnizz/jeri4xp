@@ -1,5 +1,5 @@
 <template>
-  <section id="experiencia" class="min-h-screen w-full flex flex-col items-center justify-center bg-white p-5">
+  <section id="experiencias" class="min-h-screen w-full flex flex-col items-center justify-center bg-white p-5">
 
     <h1 class="text-3xl md:text-4xl font-black tracking-tighter mb-12 uppercase text-gray-900 text-center">
       Nossas Experiências

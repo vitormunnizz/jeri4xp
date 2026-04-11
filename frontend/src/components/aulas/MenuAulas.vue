@@ -8,7 +8,7 @@ const navItems = [
   { name: 'Visão Geral', link: '#geralAulas' },
   { name: 'Veículos', link: '#veiculos' },
   { name: 'Passeios', link: '#passeios' },
-  { name: 'Dúvidas', link: '#duvida' },
+  { name: 'Dúvidas', link: '#duvidaAulas' },
   { name: 'Contato', link: '#contato' },
 ]
 

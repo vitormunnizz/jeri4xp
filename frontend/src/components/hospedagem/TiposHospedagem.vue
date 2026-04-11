@@ -1,5 +1,5 @@
 <template>
-  <section id="hospedagem" class="bg-white py-16 px-4 font-sans">
+  <section id="tipos" class="bg-white py-16 px-4 font-sans">
     <div class="max-w-6xl mx-auto">
 
       <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-4 text-orange-600">
