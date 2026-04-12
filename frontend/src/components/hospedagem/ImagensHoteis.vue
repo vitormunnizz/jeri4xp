@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-orange-600 py-16 px-4 font-sans">
+  <section id="galeria" class="bg-orange-600 py-16 px-4 font-sans">
     <div class="max-w-6xl mx-auto">
 
       <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-4 text-white">

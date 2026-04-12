@@ -1,6 +1,6 @@
 <template>
   <section
-    id="como-funciona"
+    id="funcionamento"
     class="bg-white py-16 px-4 md:px-6 font-sans"
   >
     <div class="max-w-5xl mx-auto">

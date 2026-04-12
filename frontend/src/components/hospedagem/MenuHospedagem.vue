@@ -8,6 +8,7 @@ const navItems = [
   { name: 'Visão Geral', link: '#geralHospedagem' },
   { name: 'Onde se Hospedar', link: '#localizacoes' },
   { name: 'Tipos de Hospedagem', link: '#tipos' },
+  { name: 'Galeria', link: '#galeria' },
   { name: 'Dúvidas', link: '#duvidaHospedagem' },
   { name: 'Contato', link: '#contato' },
 ]
