@@ -1,18 +1,19 @@
 <template>
-  <section id="geralHospedagem" class="bg-orange-600 min-h-screen p-7 md:p-4 flex items-center justify-center font-sans">
-    
-    <div class="w-full max-w-5xl py-16 md:py-12 bg-white rounded-3xl shadow-xl px-8 md:px-16 mx-auto">
+  <section id="geralPasseios" class="bg-orange-600 min-h-screen p-8 flex items-center justify-center font-sans">
+    <div class="w-full max-w-5xl p-8 bg-white rounded-4xl shadow-2xl mx-auto text-slate-800">
+      <div class="flex justify-center mb-4">
+        <div class="w-18 h-1 bg-orange-600 rounded-full"></div>
+      </div>
 
-      <div class="max-w-4xl mx-auto">
+      <h1 class="text-2xl md:text-5xl font-extrabold text-center mb-8">
+        Encontre a Hospedagem Ideal para Aproveitar <span class="text-orange-600">Jericoacoara</span>
+      </h1>
 
-        <h1 class="text-3xl md:text-4xl font-extrabold text-center mb-6 text-orange-600 leading-tight">
-          Encontre a Hospedagem Ideal para Aproveitar Jericoacoara
-        </h1>
+      <div class="border-l-4 border-orange-600 pl-6">
+        <div class="space-y-4 text-md md:text-lg">
 
-        <div class="space-y-4 text-md leading-relaxed text-gray-800">
-
-          <p>
-            Escolher bem onde se hospedar faz toda a diferença para aproveitar Jericoacoara com mais conforto,
+          <p class="first-letter:text-4xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">
+            Hospedar-se bem faz toda a diferença para aproveitar Jericoacoara com mais conforto,
             praticidade e tranquilidade. A vila oferece opções para todos os estilos de viagem, desde pousadas
             aconchegantes até hotéis com estrutura completa, sempre cercados pela beleza natural da região.
           </p>
@@ -38,6 +39,7 @@
 
         </div>
       </div>
+
     </div>
 
   </section>

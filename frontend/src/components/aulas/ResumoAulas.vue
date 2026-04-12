@@ -1,59 +1,58 @@
 <template>
-  <section id="geralAulas" class="bg-orange-600 min-h-screen py-16 px-4 md:px-6 flex items-center justify-center font-sans">
-    <div
-      class="w-full max-w-5xl bg-white rounded-3xl shadow-xl px-6 md:px-16 py-12 md:py-16"
-    >
-      <div class="max-w-4xl mx-auto">
+  <section id="esportesJeri" class="bg-orange-600 min-h-screen p-8 flex items-center justify-center font-sans">
+    
+    <div class="w-full max-w-5xl p-8 bg-white rounded-4xl shadow-2xl mx-auto text-slate-800">
+      
+      <div class="flex justify-center mb-4">
+        <div class="w-18 h-1 bg-orange-600 rounded-full"></div>
+      </div>
 
-        <h1
-          class="text-3xl md:text-5xl font-extrabold text-center mb-6 text-orange-600 leading-tight"
-        >
-          Viva a Experiência dos Esportes em Jericoacoara
-        </h1>
+      <h1 class="text-2xl md:text-5xl font-extrabold text-center mb-8">
+        Viva a Experiência dos Esportes em <span class="text-orange-600">Jericoacoara</span>
+      </h1>
 
-        <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12 text-lg leading-relaxed">
-          Jericoacoara é um dos melhores destinos do Brasil para quem deseja aprender,
-          evoluir e viver novas experiências nos esportes de praia.
-        </p>
+      <div class="border-l-4 border-orange-600 pl-6">
+        <div class="space-y-4 text-md md:text-lg">
 
-        <div class="space-y-6 text-gray-700 text-base md:text-lg leading-relaxed">
-
-          <p>
-            Jericoacoara reúne condições ideais para a prática de esportes como kitesurf,
-            windsurf, surf e stand up paddle. A região conta com ventos constantes,
-            mar favorável e clima perfeito durante grande parte do ano, criando um ambiente
-            seguro e confortável tanto para iniciantes quanto para quem já tem experiência.
+          <p class="first-letter:text-4xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">
+            Explorar os esportes em Jericoacoara é uma das formas mais intensas de viver o destino.
+            Com ventos constantes, mar favorável e clima ideal durante quase todo o ano, a região
+            se torna perfeita tanto para iniciantes quanto para quem já tem experiência.
           </p>
 
           <p>
-            Além das condições naturais privilegiadas, as aulas são acompanhadas por
-            instrutores experientes, que orientam cada etapa do aprendizado de acordo
-            com o seu nível. Isso permite que você evolua no seu ritmo, com mais confiança
-            e tranquilidade durante toda a experiência.
+            Entre as principais modalidades estão o kitesurf, windsurf, surf e stand up paddle,
+            cada uma oferecendo uma conexão única com o mar e a natureza. A diversidade de
+            condições permite que cada pessoa encontre o esporte ideal para seu estilo e nível.
           </p>
 
           <p>
-            Outro grande diferencial é a estrutura oferecida: equipamentos de qualidade,
-            materiais de segurança e suporte completo para que você aproveite cada momento
-            sem preocupação. Tudo é pensado para proporcionar conforto e tornar sua experiência
-            mais leve e prazerosa.
+            As aulas são acompanhadas por instrutores experientes, que orientam cada etapa do
+            aprendizado com segurança e atenção. Isso garante uma evolução mais rápida, com mais
+            confiança e tranquilidade durante toda a experiência.
           </p>
 
           <p>
-            Mais do que aprender um novo esporte, viver essa experiência em Jericoacoara
-            significa se conectar com a natureza, superar desafios e criar memórias únicas
-            em um dos cenários mais bonitos do litoral brasileiro.
+            Outro diferencial está na estrutura: equipamentos de qualidade, materiais de segurança
+            e suporte completo para que você aproveite cada momento sem preocupação, focando apenas
+            na diversão e no aprendizado.
           </p>
 
           <p>
-            Seja para sua primeira aula ou para aperfeiçoar sua técnica, Jericoacoara oferece
-            o cenário ideal para transformar sua viagem em uma experiência ainda mais intensa,
-            divertida e inesquecível.
+            Mais do que aprender um novo esporte, essa experiência proporciona conexão com a
+            natureza, superação de desafios e a criação de memórias únicas em um dos cenários
+            mais impressionantes do litoral brasileiro.
+          </p>
+
+          <p>
+            Seja para sua primeira aula ou para evoluir no esporte, Jericoacoara oferece o cenário
+            perfeito para transformar sua viagem em algo ainda mais intenso, divertido e inesquecível.
           </p>
 
         </div>
-
       </div>
+
     </div>
+
   </section>
 </template>
