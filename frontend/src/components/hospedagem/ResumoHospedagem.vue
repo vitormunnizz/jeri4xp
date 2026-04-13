@@ -1,5 +1,5 @@
 <template>
-  <section id="geralPasseios" class="bg-orange-600 min-h-screen p-8 flex items-center justify-center font-sans">
+  <section id="geralHospedagem" class="bg-orange-600 min-h-screen p-8 flex items-center justify-center font-sans">
     <div class="w-full max-w-5xl p-8 bg-white rounded-4xl shadow-2xl mx-auto text-slate-800">
       <div class="flex justify-center mb-4">
         <div class="w-18 h-1 bg-orange-600 rounded-full"></div>

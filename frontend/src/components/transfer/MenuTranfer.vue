@@ -4,7 +4,6 @@ import { ref } from 'vue'
 const isMenuOpen = ref(false)
 
 const navItems = [
-  { name: 'Home', link: '/' },
   { name: 'Trajetos', link: '#trajetos' },
   { name: 'Dúvidas', link: '#duvidaTranfer' },
   { name: 'Contato', link: '#contato' },
@@ -24,7 +23,7 @@ const footerTexto = [
   <section class="min-h-screen w-full font-sans bg-white items-center justify-center text-center">
     <div class="relative w-full h-140 overflow-hidden text-white uppercase font-bold tracking-widest text-shadow-md">
       <header class="absolute w-full flex justify-between z-50 px-10 py-2.5 md:items-center items-start">
-        <img src="../../assets/logo_jeri4xp.png" alt="Logo Jeri4xp" class="w-25" />
+        <a href="/"><img src="../../assets/logo_jeri4xp.png" alt="Logo Jeri4xp" class="w-25" /></a>
 
         <nav class="hidden md:block">
           <ul class="flex gap-10 text-lg">
