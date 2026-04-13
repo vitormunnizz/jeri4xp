@@ -24,7 +24,7 @@ const footerTexto = [
   <section class="min-h-screen w-full font-sans bg-white items-center justify-center text-center">
     <div class="relative w-full h-140 overflow-hidden text-white uppercase font-bold tracking-widest text-shadow-md">
       <header class="absolute w-full flex justify-between z-50 px-10 py-2.5 md:items-center items-start">
-        <img src="../assets/logo_jeri4xp.png" alt="Logo Jeri4xp" class="w-25" />
+        <a href="/"><img src="../assets/logo_jeri4xp.png" alt="Logo Jeri4xp" class="w-25" /></a>
 
         <nav class="hidden md:block">
           <ul class="flex gap-10 text-lg">
@@ -37,10 +37,12 @@ const footerTexto = [
         <button @click="isMenuOpen = !isMenuOpen" class="md:hidden mt-2.5 text-3xl hover:cursor-pointer">☰</button>
       </header>
 
-      <div v-if="isMenuOpen" class="fixed inset-0 z-50 bg-black flex flex-col items-center justify-center gap-8 font-bold">
+      <div v-if="isMenuOpen"
+        class="fixed inset-0 z-50 bg-black flex flex-col items-center justify-center gap-8 font-bold">
         <button @click="isMenuOpen = false" class="absolute top-8 right-10 text-4xl hover:cursor-pointer">x</button>
 
-        <a v-for="item in navItems" :key="item.name" :href="item.link" @click="isMenuOpen = false" class="text-2xl font-black tracking-tighter hover:text-orange-600 transition-all hover:cursor-pointer">
+        <a v-for="item in navItems" :key="item.name" :href="item.link" @click="isMenuOpen = false"
+          class="text-2xl font-black tracking-tighter hover:text-orange-600 transition-all hover:cursor-pointer">
           {{ item.name }}
         </a>
       </div>
