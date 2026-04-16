@@ -1,13 +1,13 @@
 <template>
   <section id="esportesJeri" class="bg-orange-600 min-h-screen p-8 flex items-center justify-center font-sans">
     
-    <div class="w-full max-w-5xl p-8 bg-white rounded-4xl shadow-2xl mx-auto text-slate-800">
+    <div class="w-full max-w-5xl p-8 bg-white rounded-4xl shadow-2xl mx-auto text-slate-8+00">
       
       <div class="flex justify-center mb-4">
         <div class="w-18 h-1 bg-orange-600 rounded-full"></div>
       </div>
 
-      <h1 class="text-2xl md:text-5xl font-extrabold text-center mb-8">
+      <h1 class="text-2xl md:text-4xl font-extrabold text-center mb-8">
         Viva a Experiência dos Esportes em <span class="text-orange-600">Jericoacoara</span>
       </h1>
 

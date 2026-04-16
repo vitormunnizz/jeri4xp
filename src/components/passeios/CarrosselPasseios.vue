@@ -5,7 +5,7 @@
       :modules="modules"
       :slides-per-view="1"
       :loop="true"
-      :autoplay="{ delay: 8000, disableOnInteraction: false }"
+      :autoplay="{ delay: 60000, disableOnInteraction: false }"
       class="meu-swiper"
     >
       <swiper-slide>
